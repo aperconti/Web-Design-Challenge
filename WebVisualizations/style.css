@@ -1,7 +1,12 @@
 body {
-    padding-bottom: 20px;
-    background-color: 	#ff7b7b;
-  }
-  
- 
+  padding-bottom: 20px;
+  background-color: #ff7b7b;
+}
 
+main {
+  margin-top: 80px;
+}
+
+.container-fluid {
+  width: 90%;
+}
