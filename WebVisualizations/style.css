@@ -1,6 +1,6 @@
 body {
   padding-bottom: 20px;
-  background-color: #ff7b7b;
+  background-color: #002a4e;
 }
 
 main {
@@ -9,4 +9,9 @@ main {
 
 .container-fluid {
   width: 90%;
+}
+
+
+.paragraph{
+  background-color: 	#e0ece4;
 }
