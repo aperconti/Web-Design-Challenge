@@ -1,0 +1,22 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "OpenDyslexicMono Regular",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.fontFamily": "OpenDyslexicMono Regular",
+    "window.zoomLevel": 2,
+    "debug.console.fontFamily": "OpenDyslexicMono Regular",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "python.dataScience.askForKernelRestart": false,
+    "terminal.integrated.inheritEnv": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "workbench.settings.useSplitJSON": true,
+    "launch": {
+    
+    
+    }
+}
