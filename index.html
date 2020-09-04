@@ -1,19 +1,143 @@
 <!doctype html>
-
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+	<title>Carousel Template for Bootstrap</title>
 
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
 
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	Test
-  <!-- <script src="js/scripts.js"></script> -->
+	<header>
+		<nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #6ec2b1;">
+			<a class="navbar-brand" href="#">School Data</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="form-inline mt-2 mt-md-0 ml-auto">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Data</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main role="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">Summary: Test Data</h2>
+							<hr>
+							<div class="row">
+								<div class="col-md-6">
+									<img src="./assets/average_math_reading.png" align="left"
+										class="img-fluid float-left" />
+								</div>
+								<div class="col-md-6">
+									<p class="card-text">The purpose of this project was to analyze the district-wide
+										standardized test results. To accomplish this, I accessed student, budget, test
+										score,
+										and school data from the district database. </p>
+									<p class="card-text">When analyzing this data, I used matplotlib to create
+										visualizations of
+										multiple aspects that influence students' test results. Some of these factors
+										included
+									</p>
+									<ul>
+										<li>math score by grade,</li>
+										<li>reading score by grade,</li>
+										<li>scores by school spending,</li>
+										<li>scores by school size, and</li>
+										<li>scores by school type. </li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Visualizations</h5>
+							<hr>
+							<div class="row">
+								<div class="col-md-6">
+									<a href="./assets/school_type.png">
+										<img src="./assets/school_type.png" class="img-fluid" alt="Responsive image">
+									</a>
+								</div>
+								<div class="col-md-6">
+									<a href="./assets/school_Size.png">
+										<img src="./assets/school_Size.png" class="img-fluid" alt="Responsive image">
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<a href="./assets/average_math_reading.png">
+										<img src="./assets/average_math_reading.png" class="img-fluid"
+											alt="Responsive image">
+									</a>
+								</div>
+								<div class="col-md-6">
+									<a href="./assets/school_spending.png">
+										<img src="./assets/school_spending.png" class="img-fluid"
+											alt="Responsive image">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
