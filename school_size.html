@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>school test scores based off school size</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #6ec2b1;">
+            <a class="navbar-brand" href="#">School Data</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="form-inline mt-2 mt-md-0 ml-auto">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./school_type.html">School Type</a>
+                                <a class="dropdown-item" href="./school_spending.html">School Spending</a>
+                                <a class="dropdown-item" href="./school_size.html">School Size</a>
+                                <a class="dropdown-item" href="./average_math_reading.html">Average Scores by School</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./visualizations.html">Comparisons <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Summary: School Size</h2>
+                            <hr>
+                            <img src="./assets/school_size.png" align="center" class="img-fluid center" />
+                            <p class="card-text">
+                                This line graph shows the average student performance in math and reading tests. The
+                                data is grouped by school size, with schools of 1000 students or less, 1000 to 2000
+                                students, and over 2000 to 5000 students.
+                                According to this data, the students in larger schools perform lower in math and reading
+                                assessments than students from medium and small schools. This might be because community
+                                built in smaller schools encourages better attendance, or that the students receive more
+                                one on one instruction. Another reason you might see this trend in the data is that
+                                there is more diversity with larger numbers of students, which might add a more
+                                significant number of language learners and students with learning disabilities.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Visualizations</h5>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="./school_type.html">
+                                        <img src="./assets/school_type.png" class="img-fluid" alt="Responsive image">
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="./school_size.html">
+                                        <img src="./assets/school_size.png" class="img-fluid" alt="Responsive image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="./average_math_reading.html">
+                                        <img src="./assets/average_math_reading.png" class="img-fluid"
+                                            alt="Responsive image">
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="./school_spending.html">
+                                        <img src="./assets/school_spending.png" class="img-fluid"
+                                            alt="Responsive image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
