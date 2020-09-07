@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>data from graphs </title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color: #6ec2b1;">
+            <a class="navbar-brand" href="#">School Data</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="form-inline mt-2 mt-md-0 ml-auto">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./school_type.html">School Type</a>
+                                <a class="dropdown-item" href="./school_spending.html">School Spending</a>
+                                <a class="dropdown-item" href="./school_size.html">School Size</a>
+                                <a class="dropdown-item" href="./average_math_reading.html">Average Scores by School</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./visualizations.html">Comparisons <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+<main role="main">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Data from the graphs</h2>
+                        <hr>
+                        <br>
+                        <br>
+                        <p class="text-center">Average score by school spending</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Average Math Score</th>
+                                        <th>Average Reading Score</th>
+                                        <th>% Passing Math</th>
+                                        <th>% Passing Reading</th>
+                                        <th>% Overall Passing Rate</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Spending Ranges (Per Student)</th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>&lt;$585</th>
+                                        <td>83.455399</td>
+                                        <td>83.933814</td>
+                                        <td>93.460096</td>
+                                        <td>96.610877</td>
+                                        <td>95.035486</td>
+                                    </tr>
+                                    <tr>
+                                        <th>$585-615</th>
+                                        <td>83.599686</td>
+                                        <td>83.885211</td>
+                                        <td>94.230858</td>
+                                        <td>95.900287</td>
+                                        <td>95.065572</td>
+                                    </tr>
+                                    <tr>
+                                        <th>$615-645</th>
+                                        <td>79.079225</td>
+                                        <td>81.891436</td>
+                                        <td>75.668212</td>
+                                        <td>86.106569</td>
+                                        <td>80.887391</td>
+                                    </tr>
+                                    <tr>
+                                        <th>$645-675</th>
+                                        <td>76.997210</td>
+                                        <td>81.027843</td>
+                                        <td>66.164813</td>
+                                        <td>81.133951</td>
+                                        <td>73.649382</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="text-center">Average score by school size</p>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Average Math Score</th>
+                                            <th>Average Reading Score</th>
+                                            <th>% Passing Math</th>
+                                            <th>% Passing Reading</th>
+                                            <th>% Overall Passing Rate</th>
+                                        </tr>
+                                        <tr>
+                                            <th>School Size</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Small (&lt;1000)</th>
+                                            <td>83.821598</td>
+                                            <td>83.929843</td>
+                                            <td>93.550225</td>
+                                            <td>96.099437</td>
+                                            <td>94.824831</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Medium (1000-2000)</th>
+                                            <td>83.374684</td>
+                                            <td>83.864438</td>
+                                            <td>93.599695</td>
+                                            <td>96.790680</td>
+                                            <td>95.195187</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Large (2000-5000)</th>
+                                            <td>77.746417</td>
+                                            <td>81.344493</td>
+                                            <td>69.963361</td>
+                                            <td>82.766634</td>
+                                            <td>76.364998</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <p class="text-center">Average score by school type</p>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Average Math Score</th>
+                                                <th>Average Reading Score</th>
+                                                <th>% Passing Math</th>
+                                                <th>% Passing Reading</th>
+                                                <th>% Overall Passing Rate</th>
+                                            </tr>
+                                            <tr>
+                                                <th>School Type</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>Charter</th>
+                                                <td>83.473852</td>
+                                                <td>83.896421</td>
+                                                <td>93.620830</td>
+                                                <td>96.586489</td>
+                                                <td>95.103660</td>
+                                            </tr>
+                                            <tr>
+                                                <th>District</th>
+                                                <td>76.956733</td>
+                                                <td>80.966636</td>
+                                                <td>66.548453</td>
+                                                <td>80.799062</td>
+                                                <td>73.673757</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <p class="text-center">Average score by school</p>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                  
+                                                    <th>School Name</th>
+                                                    <th>Average Math Score</th>
+                                                    <th>Average Reading Score</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+
+                                                    <td>Huang High School</td>
+                                                    <td>76.629414</td>
+                                                    <td>81.182722</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Figueroa High School</td>
+                                                    <td>76.711767</td>
+                                                    <td>81.158020</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Shelton High School</td>
+                                                    <td>83.359455</td>
+                                                    <td>83.725724</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Hernandez High School</td>
+                                                    <td>77.289752</td>
+                                                    <td>80.934412</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Griffin High School</td>
+                                                    <td>83.351499</td>
+                                                    <td>83.816757</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Wilson High School</td>
+                                                    <td>83.274201</td>
+                                                    <td>83.989488</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Cabrera High School</td>
+                                                    <td>83.061895</td>
+                                                    <td>83.975780</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Bailey High School</td>
+                                                    <td>77.048432</td>
+                                                    <td>81.033963</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Holden High School</td>
+                                                    <td>83.803279</td>
+                                                    <td>83.814988</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Pena High School</td>
+                                                    <td>83.839917</td>
+                                                    <td>84.044699</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Wright High School</td>
+                                                    <td>83.682222</td>
+                                                    <td>83.955000</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Rodriguez High School</td>
+                                                    <td>76.842711</td>
+                                                    <td>80.744686</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Johnson High School</td>
+                                                    <td>77.072464</td>
+                                                    <td>80.966394</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Ford High School</td>
+                                                    <td>77.102592</td>
+                                                    <td>80.746258</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td>Thomas High School</td>
+                                                    <td>83.418349</td>
+                                                    <td>83.848930</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
